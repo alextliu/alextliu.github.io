@@ -106,19 +106,27 @@ skills:
     - name: Programming Skills
       items:
         - name: MATLAB
+          icon: matlab
         - name: Julia
+          icon: julia
         - name: Python
           icon: python
         - name: C/C++
         - name: Git
+          icon: git
+        - name: Linux
+          icon: linux
     - name: Literature Management Skills
       items:
         - name: markdown
+          icon: markdown
         - name: LaTeX
+          icon: latex
         - name: Obsidian
         - name: Zotero
           icon: zotero
         - name: Neovim
+          icon: neovim
 
 languages:
   - name: Chinese
