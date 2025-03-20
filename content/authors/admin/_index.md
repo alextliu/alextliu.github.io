@@ -106,10 +106,10 @@ skills:
     - name: Programming Skills
       items:
         - name: MATLAB
-        - name: Git
         - name: Julia
         - name: Python
         - name: C/C++
+        - name: Git
     - name: Literature Management Skills
       items:
         - name: markdown
