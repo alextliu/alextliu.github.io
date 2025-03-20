@@ -108,6 +108,7 @@ skills:
         - name: MATLAB
         - name: Julia
         - name: Python
+          icon: python
         - name: C/C++
         - name: Git
     - name: Literature Management Skills
@@ -116,6 +117,7 @@ skills:
         - name: LaTeX
         - name: Obsidian
         - name: Zotero
+          icon: zotero
         - name: Neovim
 
 languages:
