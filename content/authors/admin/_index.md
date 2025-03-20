@@ -103,6 +103,20 @@ work:
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
+    - name: Programming Skills
+      items:
+        - name: MATLAB
+        - name: Git
+        - name: Julia
+        - name: Python
+        - name: C/C++
+    - name: Literature Management Skills
+      items:
+        - name: markdown
+        - name: LaTeX
+        - name: Obsidian
+        - name: Zotero
+        - name: Neovim
 
 languages:
   - name: Chinese
