@@ -112,6 +112,7 @@ skills:
         - name: Python
           icon: devicon/python
         - name: C/C++
+          icon: devicon/cplusplus
         - name: Git
           icon: devicon/git
         - name: Linux
@@ -119,10 +120,11 @@ skills:
     - name: Literature Management Skills
       items:
         - name: markdown
-          icon: markdown
+          icon: devicon/markdown
         - name: LaTeX
           icon: devicon/latex
         - name: Obsidian
+          icon: simple-icons/obsidian
         - name: Zotero
           icon: academicons/zotero
         - name: Neovim
