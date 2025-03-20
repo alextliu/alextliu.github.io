@@ -110,7 +110,7 @@ skills:
         - name: Julia
           icon: devicon/julia
         - name: Python
-          icon: python
+          icon: devicon/python
         - name: C/C++
         - name: Git
           icon: devicon/git
