@@ -124,7 +124,6 @@ skills:
         - name: LaTeX
           icon: devicon/latex
         - name: Obsidian
-          icon: obsidian
         - name: Zotero
           icon: academicons/zotero
         - name: Neovim
