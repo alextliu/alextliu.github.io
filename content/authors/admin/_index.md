@@ -120,11 +120,11 @@ skills:
     - name: Literature Management Skills
       items:
         - name: markdown
-          icon: devicon/markdown
+          icon: markdown
         - name: LaTeX
           icon: devicon/latex
         - name: Obsidian
-          icon: simple-icons/obsidian
+          icon: obsidian
         - name: Zotero
           icon: academicons/zotero
         - name: Neovim
