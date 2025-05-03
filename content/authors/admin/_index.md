@@ -92,7 +92,7 @@ work:
     company_url: 'https://www.nts.tu-darmstadt.de'
     company_logo: ''
     date_start: 2024-11-01
-    date_end: ''
+    date_end: 2025-04-30
   - position: Doctoral Research Associate
     company_name: Communication Systems Group, TU Darmstadt
     company_url: 'https://www.nts.tu-darmstadt.de'
