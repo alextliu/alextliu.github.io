@@ -28,6 +28,9 @@ sections:
     content:
       title: Awards
       username: admin
+    design:
+        # Hugo date format
+        date_format: '2006'
   - block: markdown
     content:
       title: Teaching
