@@ -147,6 +147,9 @@ languages:
 awards:
   - title: Finalist of the IEEE SAM 2024 Best Student Paper Contest
     date: '2024-07-01'
+  - title: IEEE SPS Student Travel Grant for the IEEE CAMSAP 2019
+    date: '2019-12-01'
+    awarder: IEEE Signal Processing Society
   - title: Finalist of the EUSIPCO 2019 Best Student Paper Contest
     date: '2019-09-01'
   - title: Best Master Student Award
