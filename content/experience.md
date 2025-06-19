@@ -33,8 +33,19 @@ sections:
         date_format: '2006'
   - block: markdown
     content:
+      title: Participated Projects
+      text: |
+        - German Research Foundation (DFG), "The Partial relaxation method in direction-of-arrival estimation: Design and analysis", PI: Prof. Marius Pesavento, €300K, 2019-2025
+        - DFG priority program on Compressed Sensing in Information Processing (CoSIP), "Exploiting structure in compressed sensing using side constraints: From analysis to system design -- Funding phase II", PI: Prof. Martin Haardt, Prof. Marc Pfetsch, Prof. Marius Pesavento, €300K for each group, 2018-2021
+  - block: markdown
+    content:
+      title: Academic Service
+      text: |
+        - Reviewer for IEEE Signal Processing Letters, 2024
+        - Reviewer for Elsevier Signal Processing, 2023
+  - block: markdown
+    content:
       title: Teaching
-      subtitle: Teaching Assistant at Technical University of Darmstadt
       text: |
         #### Teaching Assistant at Technical University of Darmstadt
         - **18-pe-2080 Graph Signal Processing, Learning and Optimization**
