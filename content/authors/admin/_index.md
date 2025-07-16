@@ -119,6 +119,8 @@ skills:
           icon: devicon/julia
         - name: Linux
           icon: devicon/linux
+        - name: Bash/Zsh
+          icon: devicon/bash
         - name: Git
           icon: devicon/git
         - name: CUDA
@@ -139,6 +141,7 @@ skills:
           icon: custom/obsidian-icon
         - name: Zotero
           icon: academicons/zotero
+        - name: PARA method
         - name: Neovim
           icon: devicon/neovim
 
