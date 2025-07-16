@@ -107,21 +107,29 @@ work:
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
-    - name: Programming Skills
+    - name: Programming
       items:
         - name: MATLAB
           icon: devicon/matlab
-        - name: Julia
-          icon: devicon/julia
         - name: Python
           icon: devicon/python
         - name: C/C++
           icon: devicon/cplusplus
-        - name: Git
-          icon: devicon/git
+        - name: Julia
+          icon: devicon/julia
         - name: Linux
           icon: devicon/linux
-    - name: Literature Management Skills
+        - name: Git
+          icon: devicon/git
+        - name: CUDA
+    - name: Optimization Tools
+      items:
+        - name: CVX 
+        - name: MOSEK
+        - name: Gurobi
+        - name: SCIP/SCIP-SDP
+        - name: CPLEX
+    - name: Writing and Note Management
       items:
         - name: markdown
           icon: markdown
