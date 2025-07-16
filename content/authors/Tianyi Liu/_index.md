@@ -90,7 +90,7 @@ education:
     date_start: 2011-09-01
     date_end: 2015-06-30
 work:
-  - position: Doctoral Research Associate
+  - position: Research Associate
     company_name: Communication Systems Group, TU Darmstadt
     company_url: 'https://www.nts.tu-darmstadt.de'
     company_logo: ''
