@@ -88,18 +88,24 @@ education:
     date_start: 2011-09-01
     date_end: 2015-06-30
 work:
-  - position: Postdoctoral Research Associate
-    company_name: Communication Systems Group, TU Darmstadt
-    company_url: 'https://www.nts.tu-darmstadt.de'
-    company_logo: ''
-    date_start: 2024-11-01
-    date_end: 2025-04-30
+  <!-- - position: Postdoctoral Research Associate -->
+  <!--   company_name: Communication Systems Group, TU Darmstadt -->
+  <!--   company_url: 'https://www.nts.tu-darmstadt.de' -->
+  <!--   company_logo: '' -->
+  <!--   date_start: 2024-11-01 -->
+  <!--   date_end: 2025-04-30 -->
   - position: Doctoral Research Associate
     company_name: Communication Systems Group, TU Darmstadt
     company_url: 'https://www.nts.tu-darmstadt.de'
     company_logo: ''
     date_start: 2018-09-01
-    date_end: 2024-08-31
+    date_end: ''
+  - position: Research Assistant
+    company_name: Politecnico di Torino
+    company_url: 'https://www.polito.it'
+    company_logo: ''
+    date_start: 2015-03-01 
+    date_end: 2015-07-31
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
