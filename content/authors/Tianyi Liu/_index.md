@@ -59,6 +59,8 @@ education:
     summary: |
       _With distinction_.
       Thesis on _A Parallel Successive Convex Approximation Framework with Smoothing Majorization for Phase Retrieval_. Supervised by [Prof. Dr.-Ing. Marius Pesavento](https://www.nts.tu-darmstadt.de/team_nts/staff_nts/details_12801.en.jsp). 
+      Presented my research at 6 international conferences. 
+      Co-authored 1 book section, 2 internationally refereed journal articles, and 2 submitted for publication. 
 # Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
     button:
       text: 'Read Thesis'
@@ -88,12 +90,6 @@ education:
     date_start: 2011-09-01
     date_end: 2015-06-30
 work:
-  <!-- - position: Postdoctoral Research Associate -->
-  <!--   company_name: Communication Systems Group, TU Darmstadt -->
-  <!--   company_url: 'https://www.nts.tu-darmstadt.de' -->
-  <!--   company_logo: '' -->
-  <!--   date_start: 2024-11-01 -->
-  <!--   date_end: 2025-04-30 -->
   - position: Doctoral Research Associate
     company_name: Communication Systems Group, TU Darmstadt
     company_url: 'https://www.nts.tu-darmstadt.de'
