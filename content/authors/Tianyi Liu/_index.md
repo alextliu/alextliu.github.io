@@ -106,6 +106,8 @@ work:
     company_logo: ''
     date_start: 2015-03-01 
     date_end: 2015-07-31
+    summary: |
+      Developed a heuristic algorithm for optimizing the constellation in satellite communication. Implemented in C++.
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
