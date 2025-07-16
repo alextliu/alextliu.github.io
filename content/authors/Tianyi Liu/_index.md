@@ -25,8 +25,8 @@ role: Postdoctoral Research Associate
 # Organizations/Affiliations to display in Biography blox
 organizations:
   - name: Communication Systems Group, TU Darmstadt
-    url: https://www.nts.tu-darmstadt.de/team_nts/former_staff_nts/former_staff_details_75328.en.jsp
-    <!-- url: https://www.nts.tu-darmstadt.de -->
+    url: https://www.nts.tu-darmstadt.de/team_nts/staff_nts/details_75328.en.jsp
+# url: https://www.nts.tu-darmstadt.de
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.

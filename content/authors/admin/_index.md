@@ -25,7 +25,8 @@ role: Postdoctoral Research Associate
 # Organizations/Affiliations to display in Biography blox
 organizations:
   - name: Communication Systems Group, TU Darmstadt
-    url: https://www.nts.tu-darmstadt.de
+    url: https://www.nts.tu-darmstadt.de/team_nts/staff_nts/details_75328.en.jsp
+# url: https://www.nts.tu-darmstadt.de
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -48,6 +49,7 @@ interests:
   - Sparse Signal Processing
   - Parallel Optimization Methods
   - Sensor Array Signal Processing
+  - Game Theory
   - Graph Topology Inference
 
 education:
@@ -87,18 +89,20 @@ education:
     date_start: 2011-09-01
     date_end: 2015-06-30
 work:
-  - position: Postdoctoral Research Associate
-    company_name: Communication Systems Group, TU Darmstadt
-    company_url: 'https://www.nts.tu-darmstadt.de'
-    company_logo: ''
-    date_start: 2024-11-01
-    date_end: 2025-04-30
-  - position: Doctoral Research Associate
+  - position: Research Associate
     company_name: Communication Systems Group, TU Darmstadt
     company_url: 'https://www.nts.tu-darmstadt.de'
     company_logo: ''
     date_start: 2018-09-01
-    date_end: 2024-08-31
+    date_end: ''
+  - position: Research Assistant
+    company_name: Politecnico di Torino
+    company_url: 'https://www.polito.it'
+    company_logo: ''
+    date_start: 2015-03-01 
+    date_end: 2015-07-31
+    summary: |
+      Developed a heuristic algorithm for optimizing the constellation in satellite communication. Implemented in C++.
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
