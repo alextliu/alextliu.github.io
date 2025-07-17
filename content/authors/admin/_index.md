@@ -72,6 +72,10 @@ education:
       _With distinction_.
       Recipient of the Best Master Student Award from the Department of Electrical Engineering and Information Technology.
       Erasmus Double Degree Program between Technical University of Darmstadt and Politecnico di Torino.
+      Thesis on _A scalable graph-based mixed-integer linear programming approach for the examination timetabling problem_. 
+    button:
+      text: 'Read Thesis'
+      url: 'https://webthesis.biblio.polito.it/8205/'
   - area: M.Sc. in Communications and Computer Networks Engineering
     institution: Politecnico di Torino
     date_start: 2015-09-01
