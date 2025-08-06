@@ -49,8 +49,9 @@ interests:
   - Sparse Signal Processing
   - Parallel Optimization Methods
   - Sensor Array Signal Processing
-  - Game Theory
   - Graph Topology Inference
+  - Machine Learning: Graphical Models, Neural Networks
+  - Game Theory
 
 education:
   - area: Dr.-Ing. in Electrical Engineering and Information Technology
