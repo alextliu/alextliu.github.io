@@ -50,7 +50,7 @@ interests:
   - Parallel Optimization Methods
   - Sensor Array Signal Processing
   - Graph Topology Inference
-  - Machine Learning: Graphical Models, Neural Networks
+#  - Machine Learning: Graphical Models, Neural Networks
   - Game Theory
 
 education:
