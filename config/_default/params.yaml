@@ -13,18 +13,18 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   identity:
     # Site name - shown in navbar, footer, copyright, and browser title by default
-    name: "Your Name"
+    name: "Tianyi Liu"
     # Legal entity for copyright notices (defaults to name if not set)
-    organization: ""
+    organization: "Communication Systems Group, TU Darmstadt"
     # Schema.org type for structured data
     type: person                        # person | organization | local_business
     # Short tagline displayed on your site
     tagline: ""
     # Site meta description for search engines and social sharing
-    description: "The highly-customizable Hugo Academic theme powered by HugoBlox Kit. Easily create your personal academic website."
+    description: "Postdoctoral Research Associate @ Communication Systems Group, TU Darmstadt"
     # Social accounts (used for meta tags like Twitter Cards)
     social:
-      twitter: "LoreLabs_"              # Twitter/X handle for Twitter Cards (without @)
+      twitter: ""              # Twitter/X handle for Twitter Cards (without @)
 
   # ────────────────────────────────────────────────────────────────────────────
   # THEME
@@ -166,7 +166,7 @@ hugoblox:
       enable: true
     # Academic citations
     citations:
-      style: apa                        # apa | mla | chicago | ieee
+      style: mla                        # apa | mla | chicago | ieee
 
   # ────────────────────────────────────────────────────────────────────────────
   # SEARCH
@@ -219,7 +219,7 @@ hugoblox:
   # Search engine site verification codes
   # ────────────────────────────────────────────────────────────────────────────
   verification:
-    google: ""
+    google: 'google-site-verification=qKywIOH-00qnTXsonfZfGtVxcJb3ket-xZTE10WWD2U'
     bing: ""
     baidu: ""
     yandex: ""
@@ -242,7 +242,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   locale:
     date_format: "Jan 2, 2006"          # Go time format
-    time_format: "3:04 PM"
+    time_format: "15:04 MST"
     address_format: en-us
 
   # ────────────────────────────────────────────────────────────────────────────

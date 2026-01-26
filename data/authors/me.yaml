@@ -2,115 +2,193 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Dr. Alex Johnson
-  given: Alex
-  family: Johnson
-  alternate: ''  # Example: 王伟
+  display: Dr.-Ing Tianyi Liu
+  given: Tianyi
+  family: Liu
+  alternate: '刘添翼'  # Example: 王伟
   pronunciation: ''  # Example: Wáng Wěi
-  pronouns: he/him
-postnominals:
-  - PhD
-  - MIEEE
+  # pronouns: he/him
+# postnominals:
+#   - PhD
+#   - MIEEE
 status:
-  icon: "☕️"
-role: Senior AI Research Scientist
+  # icon: "☕️"
+role: Postdoctoral Research Associate
 bio: |
-  Alex Johnson is a Senior AI Research Scientist at Meta AI. His research
-  has been published in top conferences like NeurIPS and ICML, with over
-  10,000 citations. Alex is passionate about pushing the boundaries of AI
-  while ensuring ethical development.
+  Tianyi Liu obtained the M.Sc. degree in communications and computer networks engineering, with distinction, from the Politecnico di Torino, Italy, in 2018. He received the M.Sc. degree in electrical engineering and information technology from the Technical University of Darmstadt (TUD), Germany, in 2018, with the best student award from the Department of Electrical Engineering and Information Technology. He received the Dr.-Ing. degree in electrical engineering and information technology, with distinction, from TUD in 2024. Currently, he is working as a postdoctoral research associate at the Communication Systems Group, TUD.
 
 affiliations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: Communication Systems Group, TU Darmstadt
+    url: https://www.nts.tu-darmstadt.de/team_nts/staff_nts/details_75328.en.jsp
+# url: https://www.nts.tu-darmstadt.de
 
 links:
   - icon: at-symbol
-    url: mailto:alex.johnson@example.com
+    url: 'mailto:tliu@nt.tu-darmstadt.de'
     label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/example
   - icon: brands/github
-    url: https://github.com/example
+    url: https://github.com/alextliu
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/example/
+    url: https://www.linkedin.com/in/tianyi-liu-1b733714a
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=example
+    url: https://scholar.google.com/citations?user=SAJ8bL8AAAAJ&hl=en
+  - icon: academicons/researchgate
+    url: https://www.researchgate.net/profile/Tianyi-Liu-3
   - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://orcid.org/0000-0001-8338-1651
 
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - Sparse Signal Processing
+  - Parallel Optimization Methods
+  - Sensor Array Signal Processing
+  - Graph Topology Inference
+  - "Machine Learning: Graphical Models, Neural Networks"
+  - Game Theory
 
 education:
-  - degree: PhD Computer Science
-    institution: Stanford University
-    start: 2015-09-01
-    end: 2019-06-30
+  - degree: Dr.-Ing. in Electrical Engineering and Information Technology
+    institution: Technical University of Darmstadt
+    date_start: 2018-10-01
+    date_end: 2024-09-26
     summary: |
-      Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
+      _With distinction_.
+      Thesis on _A Parallel Successive Convex Approximation Framework with Smoothing Majorization for Phase Retrieval_. Supervised by [Prof. Dr.-Ing. Marius Pesavento](https://www.nts.tu-darmstadt.de/team_nts/staff_nts/details_12801.en.jsp) and co-advised by [Prof. Stefan Ulbrich](https://www.mathematik.tu-darmstadt.de/optimierung/arbeitsgruppe_optimierung/personen_1/personendetails/stefan_ulbrich.en.jsp"). Committee members\: [Prof. Abdelhak M. Zoubir](https://www.spg.tu-darmstadt.de/spg/members/currentmembers/zoubir.en.jsp), [Prof. Sebastian Schöps](https://www.cem.tu-darmstadt.de/cem/group/ref_group_details_27328.en.jsp), and [Prof. Mario Kupnik](https://www.etit.tu-darmstadt.de/must/team_must/prof_mario_kupnik_must/index.en.jsp). 
+# Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
     button:
-      text: Download dissertation
-      url: /resume.pdf
-      icon: hero/arrow-down-tray
-  - degree: MS Computer Science
-    institution: Carnegie Mellon University
-    start: 2013-09-01
-    end: 2015-05-31
-  - degree: BS Computer Science
-    institution: MIT
-    start: 2009-09-01
-    end: 2013-05-31
+      text: 'Read Thesis'
+      url: 'https://tuprints.ulb.tu-darmstadt.de/28201/'
+  - degree: M.Sc. in Electrical Engineering and Information Technology
+    institution: Technical University of Darmstadt
+    date_start: 2016-10-01
+    date_end: 2018-07-31
+    summary: |
+      _With distinction_.
+      Recipient of the Best Master Student Award from the Department of Electrical Engineering and Information Technology.
+      Erasmus Double Degree Program between Technical University of Darmstadt and Politecnico di Torino.
+      Thesis on _A scalable graph-based mixed-integer linear programming approach for the examination timetabling problem_. 
+    button:
+      text: 'Read Thesis'
+      url: 'https://webthesis.biblio.polito.it/8205/'
+  - degree: M.Sc. in Communications and Computer Networks Engineering
+    institution: Politecnico di Torino
+    date_start: 2015-09-01
+    date_end: 2018-07-31
+    summary: |
+      _Cum laude_
+  - degree: B.Sc. in Telecommunications Engineering
+    institution: Politecnico di Torino
+    date_start: 2014-09-01
+    date_end: 2015-07-31
+    summary: |
+      Double Degree Program PoliTong between Politecnico di Torino and Tongji University
+  - degree: B.Eng. in Electronics and Information Engineering
+    institution: Tongji University
+    date_start: 2011-09-01
+    date_end: 2015-06-30
 
 experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
+  - role: Research Associate
+    org: Communication Systems Group, TU Darmstadt
+    start: 2018-09-01
+    # button:
+    #   text: View portfolio
+    #   url: /
+    #   icon: hero/arrow-down-tray
+  - role: Research Assistant
+    org: Politecnico di Torino
+    start: 2015-03-01
+    end: 2015-07-31
     summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
-    button:
-      text: View portfolio
-      url: /
-      icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
-    summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      Developed a heuristic algorithm for optimizing the constellation in satellite communication. Implemented in C++.
 
+# Skills
+# Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Technical Skills
-    items:
-      - label: Python
-        level: 5
-      - label: Machine Learning
-        level: 5
-      - label: Cloud Computing
-        level: 4
-  - name: Research & Communication
-    items:
-      - label: Academic Writing
-        level: 5
-      - label: Conference Presentations
-        level: 4
-      - label: Grant Proposals
-        level: 4
+    - name: Programming
+      items:
+        - name: MATLAB
+          icon: devicon/matlab
+        - name: Python
+          icon: devicon/python
+        - name: C/C++
+          icon: devicon/cplusplus
+        - name: Julia
+          icon: devicon/julia
+        - name: Linux
+          icon: devicon/linux
+        - name: Bash/Zsh
+          icon: devicon/bash
+        - name: Git
+          icon: devicon/git
+        - name: CUDA
+    - name: Optimization Tools
+      items:
+        - name: CVX 
+        - name: MOSEK
+        - name: Gurobi
+        - name: SCIP/SCIP-SDP
+        - name: CPLEX
+    - name: Writing and Note Management
+      items:
+        - name: markdown
+          icon: markdown
+        - name: LaTeX
+          icon: devicon/latex
+        - name: Obsidian
+          icon: custom/obsidian-icon
+        - name: Zotero
+          icon: academicons/zotero
+        - name: PARA method
+        - name: Neovim
+          icon: devicon/neovim
+  # - name: Technical Skills
+  #   items:
+  #     - label: Python
+  #       level: 5
+  #     - label: Machine Learning
+  #       level: 5
+  #     - label: Cloud Computing
+  #       level: 4
+  # - name: Research & Communication
+  #   items:
+  #     - label: Academic Writing
+  #       level: 5
+  #     - label: Conference Presentations
+  #       level: 4
+  #     - label: Grant Proposals
+  #       level: 4
 
 languages:
-  - name: English
+  - name: Chinese
+    # percent: 100
     level: 5
     label: Native
-  - name: Spanish
+  - name: English
     level: 4
     label: Fluent
+  - name: Italian
+    level: 3 
+    label: Intermmediate
+  - name: German
+    level: 3 
+    label: Intermmediate
+  # - name: Spanish
+  #   level: 3
+  #   label: Fluent
 
 awards:
-  - title: Best Paper Award
-    awarder: NeurIPS
-    date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
-    icon: hero/trophy
+  - title: Finalist of the IEEE SAM 2024 Best Student Paper Contest
+    date: '2024-07-01'
+  - title: IEEE SPS Student Travel Grant for the IEEE CAMSAP 2019
+    date: '2019-12-01'
+    awarder: IEEE Signal Processing Society
+  - title: Finalist of the EUSIPCO 2019 Best Student Paper Contest
+    date: '2019-09-01'
+  - title: Best Master Student Award
+    date: '2018-07-01'
+    awarder: Dept. ETIT, TU Darmstadt
+  # - title: Best Paper Award
+  #   awarder: NeurIPS
+  #   date: "2022-12-01"
+  #   summary: Awarded for groundbreaking work on efficient training of large models.
+  #   icon: hero/trophy
