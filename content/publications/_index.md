@@ -25,7 +25,7 @@ sections:
       count: 0
       filters:
         folders:
-          - publication
+          - publications
         publication_type: "thesis"
         exclude_featured: false
     design:
@@ -37,7 +37,7 @@ sections:
       count: 0
       filters:
         folders:
-          - publication
+          - publications
         publication_type: "chapter"
         exclude_featured: false
     design:
@@ -49,7 +49,7 @@ sections:
       count: 0
       filters:
         folders:
-          - publication
+          - publications
         publication_type: "manuscript"
         exclude_featured: false
     design:
@@ -61,7 +61,7 @@ sections:
       count: 0
       filters:
         folders:
-          - publication
+          - publications
         publication_type: "article-journal"
         exclude_featured: false
     design:
@@ -73,7 +73,7 @@ sections:
       count: 0
       filters:
         folders:
-          - publication
+          - publications
         publication_type: "paper-conference"
         exclude_featured: false
     design:
