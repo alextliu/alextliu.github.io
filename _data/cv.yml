@@ -159,11 +159,14 @@ cv:
 
     Skills:
       - name: Programming
-        items:
-          - name: Python
-            icon: fa-brands fa-python
+        icon: fa-solid fa-code
+        keywords: "MATLAB, Python/Numpy/PyTorch, C/C++, Julia, Linux, Bash/Zsh, Git, CUDA"
       - name: Optimization Tools
+        icon: fa-solid fa-cubes
+        keywords: "CVX, MOSEK, Gurobi, SCIP/SCIP-SDP, CPLEX"
       - name: Writing and Note Management
+        icon: fa-solid fa-pen-to-square
+        keywords: "Markdown, LaTeX, Obsidian, Zotero, PARA method, Neovim"
     #   - name: Physics
     #     level: Master
     #     icon: fa-solid fa-hashtag
