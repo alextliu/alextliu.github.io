@@ -33,8 +33,8 @@ cv:
         end_date: 2024-09
         score: "With distinction"
         # courses: "Theory of Relativity"
-        summary: |
-          Thesis on [A Parallel Successive Convex Approximation Framework with Smoothing Majorization for Phase Retrieval](https://tuprints.ulb.tu-darmstadt.de/28201/). Supervised by [Prof. Dr.-Ing. Marius Pesavento](https://www.nts.tu-darmstadt.de/team_nts/staff_nts/details_12801.en.jsp) and co-advised by [Prof. Stefan Ulbrich](https://www.mathematik.tu-darmstadt.de/optimierung/arbeitsgruppe_optimierung/personen_1/personendetails/stefan_ulbrich.en.jsp"). Committee members\: [Prof. Abdelhak M. Zoubir](https://www.spg.tu-darmstadt.de/spg/members/currentmembers/zoubir.en.jsp), [Prof. Sebastian Schöps](https://www.cem.tu-darmstadt.de/cem/group/ref_group_details_27328.en.jsp), and [Prof. Mario Kupnik](https://www.etit.tu-darmstadt.de/must/team_must/prof_mario_kupnik_must/index.en.jsp). 
+        # summary: |
+        #   Thesis on [A Parallel Successive Convex Approximation Framework with Smoothing Majorization for Phase Retrieval](https://tuprints.ulb.tu-darmstadt.de/28201/). Supervised by [Prof. Dr.-Ing. Marius Pesavento](https://www.nts.tu-darmstadt.de/team_nts/staff_nts/details_12801.en.jsp) and co-advised by [Prof. Stefan Ulbrich](https://www.mathematik.tu-darmstadt.de/optimierung/arbeitsgruppe_optimierung/personen_1/personendetails/stefan_ulbrich.en.jsp"). Committee members\: [Prof. Abdelhak M. Zoubir](https://www.spg.tu-darmstadt.de/spg/members/currentmembers/zoubir.en.jsp), [Prof. Sebastian Schöps](https://www.cem.tu-darmstadt.de/cem/group/ref_group_details_27328.en.jsp), and [Prof. Mario Kupnik](https://www.etit.tu-darmstadt.de/must/team_must/prof_mario_kupnik_must/index.en.jsp). 
         # Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
 
       - institution: Technical University of Darmstadt
