@@ -2,6 +2,7 @@ cv:
   name: Tianyi Liu
   label: Postdoctoral Researcher in Signal Processing and Machine Learning
   email: tliu@nt.tu-darmstadt.de
+  website: https://tianyiliu.work
   location: Darmstadt, Germany
   image: ""
   summary: A passionate researcher in signal processing and machine learning
@@ -107,14 +108,22 @@ cv:
     Awards:
       - title: Finalist of the IEEE SAM 2024 Best Student Paper Contest
         date: 2024-07
+        authors:
+          - "Tianyi Liu"
       - title: IEEE SPS Student Travel Grant for the IEEE CAMSAP 2019
         date: 2019-12
         awarder: IEEE Signal Processing Society
+        authors:
+          - "Tianyi Liu"
       - title: Finalist of the EUSIPCO 2019 Best Student Paper Contest
         date: 2019-09
+        authors:
+          - "Tianyi Liu"
       - title: Best Master Student Award
         date: 2018-07
         awarder: Dept. ETIT, TU Darmstadt
+        authors:
+          - "Tianyi Liu"
       # - title: Nobel Prize in Physics
       #   authors:
       #     - "Royal Swedish Academy of Sciences"
