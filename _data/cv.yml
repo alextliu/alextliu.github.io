@@ -157,8 +157,13 @@ cv:
     #     url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
     #     summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
 
-    # Skills:
-    #   - name: Programming
+    Skills:
+      - name: Programming
+        items:
+          - name: Python
+            icon: fa-brands fa-python
+      - name: Optimization Tools
+      - name: Writing and Note Management
     #   - name: Physics
     #     level: Master
     #     icon: fa-solid fa-hashtag
