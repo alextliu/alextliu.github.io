@@ -33,67 +33,74 @@ cv:
         score: "With distinction"
         # courses: "Theory of Relativity"
         highlights:
-          - Description 1.
-          - Description 2.
+          - 
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+      - institution: Technical University of Darmstadt
+        location: Darmstadt, Germany
+        url: https://www.tu-darmstadt.de/
+        area: Electrical Engineering
+        studyType: M.Sc.
+        start_date: 2016-10
+        end_date: 2018-07
+        score: "With distinction"
         highlights:
-          - Description 1.
-          - Description 2.
+          - Recipient of the Best Master Student Award from the Department of Electrical Engineering and Information Technology.
+          - Erasmus Double Degree Program between Technical University of Darmstadt and Politecnico di Torino.
+
+      - institution: Politecnico di Torino
+        location: Turin, Italy
+        url: https://www.polito.it/
+        area: Communications and Computer Networks Engineering
+        studyType: M.Sc.
+        start_date: 2015-09
+        end_date: 2018-07
+        score: "Cum laude"
+
+      - institution: Politecnico di Torino
+        location: Turin, Italy
+        url: https://www.polito.it/
+        area: Telecommunications Engineering
+        studyType: B.Sc.
+        start_date: 2014-09
+        end_date: 2015-07
+        highlights:
+          - Double Degree Program PoliTong between Politecnico di Torino and Tongji University
+
+      - institution: Tongji University
+        location: Shanghai, China
+        url: https://www.tongji.edu.cn/
+        area: Electronics and Information Engineering
+        studyType: B.Sc.
+        start_date: 2011-09
+        end_date: 2015-06
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
-        highlights:
-          - Relativity
-          - Description 2.
+      - company: Communication Systems Group, TU Darmstadt
+        position: Research Associate
+        location: Darmstadt, Germany
+        start_date: 2018-09
+        # end_date: 
+        # summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+        # highlights:
+        #   - Relativity
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
-        highlights:
-          - Description 1.
-          - Description 2.
+      - company: Politecnico di Torino
+        position: Research Assistant
+        location: Turin, Italy
+        start_date: 2015-03
+        end_date: 2015-07
+        summary: Developed a heuristic algorithm for optimizing the constellation in satellite communication. Implemented in C++.
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-        highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+    # Volunteer:
+    #   - company: People's Climate March
+    #     position: Lead Organizer
+    #     location: Zurich, Switzerland
+    #     start_date: 2014-04-01
+    #     end_date: 2015-07-01
+    #     summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+    #     highlights:
+    #       - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
+    #       - "Men of the year 2014 by Time magazine"
 
     Awards:
       - title: Nobel Prize in Physics

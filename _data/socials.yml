@@ -4,13 +4,13 @@
 cv_pdf: /assets/pdf/cv_academic_TianyiLiu.pdf # path to your CV PDF file
 email: tliu@nt.tu-darmstadt # your email address
 # inspirehep_id: 1010907 # Inspire HEP author ID
-rss_icon: true # comment this line to hide the RSS icon
-scholar_userid: SAJ8bL8AAAAJ&hl # your Google Scholar ID
-# arxiv_id: 
-orcid_id: 0000-0001-8338-1651
-research_gate_profile: Tianyi-Liu-3
 github_username: alextliu
 linkedin_username: tianyi-liu-1b733714a
+scholar_userid: SAJ8bL8AAAAJ&hl # your Google Scholar ID
+# arxiv_id: 
+research_gate_profile: Tianyi-Liu-3
+orcid_id: 0000-0001-8338-1651
+rss_icon: true # comment this line to hide the RSS icon
 # wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 # whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 # custom_social: # can be any name here other than the ones already defined in the jekyll-socials plugin
