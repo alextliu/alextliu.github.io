@@ -29,6 +29,14 @@ cv:
   #   countryCode: US
 
   sections:
+    # Profile:
+    #   highlights:
+    #     - Current Postdoc and PhD graduate in Electrical Engineering.
+    #     - Solid knowledge in signal processing, matrix analysis, and optimization theory.
+    #     - Proficiency in parallel/distributed optimization methods in signal processing and machine learning.
+    #     - Excellent technical writing skills with 1 book section and 4 journal articles submitted.
+    #     - Proven communication and presentation skills fluently in English.
+
     Education:
       - institution: Technical University of Darmstadt
         location: Darmstadt, Germany
@@ -87,7 +95,17 @@ cv:
         start_date: 2011-09
         end_date: 2015-06
 
-    Experience:
+    Research Interests:
+      highlights:
+        - Sparse signal processing
+        - 'Parallel/distributed optimization methods: Focusing on nonconvex and nonsmooth problems'
+        - 'Sensor array signal processing: Direction-of-arrival estimation'
+        - 'Graph signal processing: Graph topology learning'
+        - 'Algorithm unrolling'
+        - 'Game theory: Generalized Nash equilibrium'
+        - 'Cooperative localization and control of unmanned systems'
+
+    Work Experience:
       - company: Communication Systems Group, TU Darmstadt
         position: Research Associate
         location: Darmstadt, Germany
@@ -216,7 +234,9 @@ cv:
     #     issuer: Stanford University
     #     icon: fa-solid fa-envelope
 
-    # Projects:
+    Participated Projects:
+      - bullet: 'German Research Foundation (DFG), "The partial relaxation method in direction-of-arrival estimation: Design and analysis", PI: Prof. Marius Pesavento, \u20AC 300K, 2019--2025'
+      - bullet: 'DFG priority program on Compressed Sensing in Information Processing (CoSIP), "Exploiting structure in compressed sensing using side constraints: From analysis to system design -- Funding phase II", PI: Prof. Martin Haardt, Prof. Marc Pfetsch, Prof. Marius Pesavento, \u20AC 300K for each group, 2018--2021'
     #   - name: Quantum Computing
     #     summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
     #     highlights:
@@ -224,6 +244,13 @@ cv:
     #       - Quantum Cryptography
     #     start_date: 2018-01-01
     #     end_date: 2018-01-01
+
+    Academic Service:
+      - name: Reviewer
+        highlights:
+          - IEEE Transactions on Signal Processing
+          - IEEE Signal Processing Letters
+          - Elsevier Signal Processing
 
     # References:
     #   - name: Professor John Doe

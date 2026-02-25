@@ -31,8 +31,8 @@ Tianyi Liu is a postdoctoral researcher at the Communication Systems Group, Tech
 
 ## research interests
 - Sparse Signal Processing
-- Parallel Optimization Methods
+- Parallel/Distributed Optimization Methods
 - Sensor Array Signal Processing
-- Graph Topology Inference
+- Graph Signal Processing: Graph Topology Inference
 - Machine Learning: Graphical Models, Neural Networks
 - Game Theory
