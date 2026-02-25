@@ -87,20 +87,20 @@
   abstract = {In this paper, we study the problem of recovering the direction-of-arrival in difficult scenarios of highly correlated source signals and only few available snapshots. Recently, the partial relaxation framework has been proposed as an optimizationbased technique that accounts for the existence of multiple signals while performing the estimation task through a simple spectral search. Its performance is superior to conventional methods but tends to deteriorate drastically when the source signals are highly correlated due to information loss associated with the relaxation. On the other hand, from a compressed sensing point of view, the recently proposed sparse row-norm reconstruction method formulates the parameter estimation problem as a compact $\ell_{2,1}$-mixed-norm minimization problem. One of its prominent advantages is its robustness under highly correlated sources and a low number of snapshots; an intrinsic bias induced by the $\ell_1$-norm approximation, however, affects the estimation performance. In this paper, we propose a method that integrates the  $\ell_{2,1}$-mixed-norm minimization formulation into the spectral search of the partial relaxation estimators. Simulation results show that the proposed estimator has superior error performance in difficult scenarios and alleviates the disadvantages of both methods.}
 }
 
-@misc{
-  title = {Gridless parameter estimation in partly calibrated rectangular arrays},
-  author = {Liu, Tianyi and Deram, Sai Pavan and Ardah, Khaled and Haardt, Martin and Pfetsch, Marc E. and Pesavento, Marius},
-  year = 2024,
-  month = jun,
-  number = {arXiv:2406.16041},
-  eprint = {2406.16041},
-  primaryclass = {eess},
-  publisher = {arXiv},
-  doi = {10.48550/arXiv.2406.16041},
-  abstract = {Spatial frequency estimation from a mixture of noisy sinusoids finds applications in various fields. While subspace-based methods offer cost-effective super-resolution parameter estimation, they demand precise array calibration, posing challenges for large antennas. In contrast, sparsity-based approaches outperform subspace methods, especially in scenarios with limited snapshots or correlated sources. This study focuses on direction-of-arrival (DOA) estimation using a partly calibrated rectangular array with fully calibrated subarrays. A gridless sparse formulation leveraging shift invariances in the array is developed, yielding two competitive algorithms under the alternating direction method of multipliers (ADMM) and successive convex approximation frameworks, respectively. Numerical simulations show the superior error performance of our proposed method, particularly in highly correlated scenarios, compared to the conventional subspace-based methods. It is demonstrated that the proposed formulation can also be adopted in the fully calibrated case to improve the robustness of the subspace-based methods to the source correlation. Furthermore, we provide a generalization of the proposed method to a more challenging case where a part of the sensors is unobservable due to failures.},
-  archiveprefix = {arXiv},
-  selected = {true}
-}
+% @misc{
+%   title = {Gridless parameter estimation in partly calibrated rectangular arrays},
+%   author = {Liu, Tianyi and Deram, Sai Pavan and Ardah, Khaled and Haardt, Martin and Pfetsch, Marc E. and Pesavento, Marius},
+%   year = 2024,
+%   month = jun,
+%   number = {arXiv:2406.16041},
+%   eprint = {2406.16041},
+%   primaryclass = {eess},
+%   publisher = {arXiv},
+%   doi = {10.48550/arXiv.2406.16041},
+%   abstract = {Spatial frequency estimation from a mixture of noisy sinusoids finds applications in various fields. While subspace-based methods offer cost-effective super-resolution parameter estimation, they demand precise array calibration, posing challenges for large antennas. In contrast, sparsity-based approaches outperform subspace methods, especially in scenarios with limited snapshots or correlated sources. This study focuses on direction-of-arrival (DOA) estimation using a partly calibrated rectangular array with fully calibrated subarrays. A gridless sparse formulation leveraging shift invariances in the array is developed, yielding two competitive algorithms under the alternating direction method of multipliers (ADMM) and successive convex approximation frameworks, respectively. Numerical simulations show the superior error performance of our proposed method, particularly in highly correlated scenarios, compared to the conventional subspace-based methods. It is demonstrated that the proposed formulation can also be adopted in the fully calibrated case to improve the robustness of the subspace-based methods to the source correlation. Furthermore, we provide a generalization of the proposed method to a more challenging case where a part of the sensors is unobservable due to failures.},
+%   archiveprefix = {arXiv},
+%   selected = {true}
+% }
 
 @inproceedings{
   title = {Blind phase-offset estimation in sparse partly calibrated arrays},
@@ -127,19 +127,19 @@
   selected = {true}
 }
 
-@misc{
-  title = {Maximum a posteriori direction-of-arrival estimation via mixed-integer semidefinite programming},
-  author = {Liu, Tianyi and Matter, Frederic and Sorg, Alexander and Pfetsch, Marc E. and Haardt, Martin and Pesavento, Marius},
-  year = 2024,
-  month = oct,
-  number = {arXiv:2311.03501},
-  eprint = {2311.03501},
-  publisher = {arXiv},
-  doi = {10.48550/arXiv.2311.03501},
-  abstract = {In this paper, we consider the maximum a posteriori (MAP) estimation for the multiple measurement vectors (MMV) problem with application to direction-of-arrival (DOA) estimation, which is classically formulated as a regularized least-squares (LS) problem with an $\ell_{2,0}$-norm constraint, and derive an equivalent mixed-integer semidefinite program (MISDP) reformulation. The proposed MISDP reformulation can be exactly solved by a generic MISDP solver using a semidefinite programming (SDP) based branch-and-bound method, which, unlike other nonconvex approaches for the MMV problem, such as the greedy methods and sparse Bayesian learning techniques, provides a solution with an optimality assessment even with early termination. We also present an approximate solution approach based on randomized rounding that yields high-quality feasible solutions of the proposed MISDP reformulation at a practically affordable computation time for problems of extremely large dimensions. Numerical simulations demonstrate the improved error performance of our proposed method in comparison to several popular DOA estimation methods. In particular, compared to the deterministic maximum likelihood (DML) estimator, which is often used as a benchmark, the proposed method applied with the randomized rounding algorithm exhibits a superior estimation performance at a significantly reduced running time.},
-  archiveprefix = {arXiv},
-  selected = {true}
-}
+% @misc{
+%   title = {Maximum a posteriori direction-of-arrival estimation via mixed-integer semidefinite programming},
+%   author = {Liu, Tianyi and Matter, Frederic and Sorg, Alexander and Pfetsch, Marc E. and Haardt, Martin and Pesavento, Marius},
+%   year = 2024,
+%   month = oct,
+%   number = {arXiv:2311.03501},
+%   eprint = {2311.03501},
+%   publisher = {arXiv},
+%   doi = {10.48550/arXiv.2311.03501},
+%   abstract = {In this paper, we consider the maximum a posteriori (MAP) estimation for the multiple measurement vectors (MMV) problem with application to direction-of-arrival (DOA) estimation, which is classically formulated as a regularized least-squares (LS) problem with an $\ell_{2,0}$-norm constraint, and derive an equivalent mixed-integer semidefinite program (MISDP) reformulation. The proposed MISDP reformulation can be exactly solved by a generic MISDP solver using a semidefinite programming (SDP) based branch-and-bound method, which, unlike other nonconvex approaches for the MMV problem, such as the greedy methods and sparse Bayesian learning techniques, provides a solution with an optimality assessment even with early termination. We also present an approximate solution approach based on randomized rounding that yields high-quality feasible solutions of the proposed MISDP reformulation at a practically affordable computation time for problems of extremely large dimensions. Numerical simulations demonstrate the improved error performance of our proposed method in comparison to several popular DOA estimation methods. In particular, compared to the deterministic maximum likelihood (DML) estimator, which is often used as a benchmark, the proposed method applied with the randomized rounding algorithm exhibits a superior estimation performance at a significantly reduced running time.},
+%   archiveprefix = {arXiv},
+%   selected = {true}
+% }
 
 @article{
   title = {A tensor model for the calibration of air-coupled ultrasonic sensor arrays in {{3D}} imaging},
