@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-publications",
           title: "publications",
-          description: "A complete publication list can be found on Tianyi Liu&#39;s profiles in [Google Scholar](https://scholar.google.com/citations?user=SAJ8bL8AAAAJ&amp;hl=en) and [Research Gate](https://www.researchgate.net/profile/Tianyi-Liu-3).",
+          description: "A complete publication list can be found on Tianyi Liu&#39;s profiles in Google Scholar and Research Gate.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
