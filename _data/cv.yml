@@ -105,25 +105,25 @@ cv:
     #       - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
     #       - "Men of the year 2014 by Time magazine"
 
-    Awards:
-      - title: Finalist of the IEEE SAM 2024 Best Student Paper Contest
-        date: 2024-07
-        authors:
-          - "Tianyi Liu"
-      - title: IEEE SPS Student Travel Grant for the IEEE CAMSAP 2019
-        date: 2019-12
-        awarder: IEEE Signal Processing Society
-        authors:
-          - "Tianyi Liu"
-      - title: Finalist of the EUSIPCO 2019 Best Student Paper Contest
-        date: 2019-09
-        authors:
-          - "Tianyi Liu"
-      - title: Best Master Student Award
-        date: 2018-07
-        awarder: Dept. ETIT, TU Darmstadt
-        authors:
-          - "Tianyi Liu"
+    # Awards:
+    #   - title: Finalist of the IEEE SAM 2024 Best Student Paper Contest
+    #     date: 2024-07
+    #     authors:
+    #       - "Tianyi Liu"
+    #   - title: IEEE SPS Student Travel Grant for the IEEE CAMSAP 2019
+    #     date: 2019-12
+    #     awarder: IEEE Signal Processing Society
+    #     authors:
+    #       - "Tianyi Liu"
+    #   - title: Finalist of the EUSIPCO 2019 Best Student Paper Contest
+    #     date: 2019-09
+    #     authors:
+    #       - "Tianyi Liu"
+    #   - title: Best Master Student Award
+    #     date: 2018-07
+    #     awarder: Dept. ETIT, TU Darmstadt
+    #     authors:
+    #       - "Tianyi Liu"
       # - title: Nobel Prize in Physics
       #   authors:
       #     - "Royal Swedish Academy of Sciences"
