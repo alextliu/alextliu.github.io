@@ -219,4 +219,4 @@ design:
   theme: classic
 
   templates:
-    single_date: YEAR-MONTH
+    single_date: MONTH_ABBREVIATION YEAR
