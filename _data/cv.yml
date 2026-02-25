@@ -14,6 +14,12 @@ cv:
       username: alextliu
     - network: LinkedIn
       username: tianyi-liu-1b733714a
+    - network: ORCID
+      username: 0000-0001-8338-1651
+    - network: ResearchGate
+      username: Tianyi-Liu-3
+    - network: Google Scholar
+      username: SAJ8bL8AAAAJ&hl
 
   # address:
   #   street: 2712 Broadway St
@@ -224,8 +230,8 @@ cv:
     #     icon: fa-solid fa-thumbtack
     #     reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
 
-design:
-  theme: moderncv
-
-  templates:
-    single_date: YEAR-MONTH_IN_TWO_DIGITS
+# design:
+#   theme: classic
+#
+#   templates:
+#     single_date: YEAR-MONTH_IN_TWO_DIGITS
