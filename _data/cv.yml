@@ -1,10 +1,10 @@
 cv:
   name: Tianyi Liu
-  label: Scientist
+  label: Postdoctoral Researcher in Signal Processing and Machine Learning
   email: tliu@nt.tu-darmstadt.de
   location: Darmstadt, Germany
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: A passionate researcher in signal processing and machine learning
 
   social_networks:
     # - network: X
@@ -14,24 +14,24 @@ cv:
     - network: LinkedIn
       username: tianyi-liu-1b733714a
 
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+  # address:
+  #   street: 2712 Broadway St
+  #   city: San Francisco
+  #   region: California
+  #   postalCode: CA 94115
+  #   countryCode: US
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+      - institution: Technical University of Darmstadt
+        location: Darmstadt, Germany
+        url: https://www.tu-darmstadt.de/
+        area: Electrical Engineering
+        studyType: Dr.-Ing.
+        start_date: 2018-10
+        end_date: 2024-09
+        score: "With distinction"
+        # courses: "Theory of Relativity"
         highlights:
           - Description 1.
           - Description 2.
