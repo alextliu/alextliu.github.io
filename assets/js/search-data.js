@@ -149,6 +149,34 @@ ninja.data = [{
           window.open("https://scholar.google.com/citations?user=SAJ8bL8AAAAJ&hl", "_blank");
         },
       },{
+        id: 'social-orcid',
+        title: 'ORCID',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://orcid.org/0000-0001-8338-1651", "_blank");
+        },
+      },{
+        id: 'social-researchgate',
+        title: 'ResearchGate',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.researchgate.net/profile/Tianyi-Liu-3/", "_blank");
+        },
+      },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/alextliu", "_blank");
+        },
+      },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/tianyi-liu-1b733714a", "_blank");
+        },
+      },{
       id: 'light-theme',
       title: 'Change theme to light',
       description: 'Change the theme of the site to Light',
