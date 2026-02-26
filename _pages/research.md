@@ -13,8 +13,10 @@ nav_order: 2
 - **[Parallel Optimization Methods for Estimation](/assets/pdf/2026-01-14_parallelOptimization_slides.pdf)** <br>
   Invited by EEMCS, TU Delft, January 2026
 
-<!-- ## Participated Conferences -->
+## Participated Projects
 
+- German Research Foundation (DFG), "The partial relaxation method in direction-of-arrival estimation: Design and analysis", PI: Prof. Marius Pesavento, "\u20AC" 300K, 2019--2025
+- DFG priority program on Compressed Sensing in Information Processing (CoSIP), "Exploiting structure in compressed sensing using side constraints: From analysis to system design -- Funding phase II", PI: Prof. Martin Haardt, Prof. Marc Pfetsch, Prof. Marius Pesavento, "\u20AC" 300K for each group, 2018--2021
 ---
 
 ## Reviewing Activities

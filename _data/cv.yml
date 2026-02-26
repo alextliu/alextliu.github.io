@@ -233,9 +233,9 @@ cv:
     #     issuer: Stanford University
     #     icon: fa-solid fa-envelope
 
-    Participated Projects:
-      - bullet: "German Research Foundation (DFG), \"The partial relaxation method in direction-of-arrival estimation: Design and analysis\", PI: Prof. Marius Pesavento, \u20AC 300K, 2019--2025"
-      - bullet: "DFG priority program on Compressed Sensing in Information Processing (CoSIP), \"Exploiting structure in compressed sensing using side constraints: From analysis to system design -- Funding phase II\", PI: Prof. Martin Haardt, Prof. Marc Pfetsch, Prof. Marius Pesavento, \u20AC 300K for each group, 2018--2021"
+    # Participated Projects:
+    #   - bullet: "German Research Foundation (DFG), \"The partial relaxation method in direction-of-arrival estimation: Design and analysis\", PI: Prof. Marius Pesavento, \u20AC 300K, 2019--2025"
+    #   - bullet: "DFG priority program on Compressed Sensing in Information Processing (CoSIP), \"Exploiting structure in compressed sensing using side constraints: From analysis to system design -- Funding phase II\", PI: Prof. Martin Haardt, Prof. Marc Pfetsch, Prof. Marius Pesavento, \u20AC 300K for each group, 2018--2021"
     #   - name: Quantum Computing
     #     summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
     #     highlights:
