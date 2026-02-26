@@ -27,9 +27,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Tianyi Liu is a postdoctoral researcher at the Communication Systems Group, Technical University of Darmstadt (TUD), Germany. Before that, he received the double M.Sc. degrees in electrical engineering from TUD and the Politecnico di Torino, Italy, in 2018. He received the best Master student award from the Department of Electrical Engineering and Information Technology at TUD. He obtained his Dr.-Ing. degree in electrical engineering, with distinction, from TUD in 2024. 
+Tianyi Liu is a postdoctoral researcher at the Communication Systems Group, Technical University of Darmstadt (TUD), Germany. Before that, he received the double M.Sc. degrees in electrical engineering from TUD and the Politecnico di Torino, Italy, in 2018. He received the best Master student award from the Department of Electrical Engineering and Information Technology at TUD. He obtained his Dr.-Ing. degree in electrical engineering, with distinction, from TUD in 2024.
 
 ## research interests
+
 - Sparse Signal Processing
 - Parallel/Distributed Optimization Methods
 - Sensor Array Signal Processing
