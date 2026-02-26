@@ -9,6 +9,7 @@ calendar: false
 ---
 
 ---
+
 ## Teaching Assistant at TU Darmstadt
 
 ### Courses
@@ -20,7 +21,6 @@ calendar: false
 - **18-pe-2050 Project Seminar: Procedures for Massive MIMO and 5G** <br>
   Instructor: Prof. Marius Pesavento,
   Summer Semester 2020
-
 - **18-pe-2030 MIMO Communication and Space-Time Coding** <br>
   Instructor: Prof. Marius Pesavento,
   Winter Semester 2018/19 -- Winter Semester 2019/20
@@ -29,6 +29,6 @@ calendar: false
 
 <div class="publications">
 
-{% bibliography -f student-project --group_by none,year %}
+{% bibliography -f student-project --group_by none %}
 
 </div>
