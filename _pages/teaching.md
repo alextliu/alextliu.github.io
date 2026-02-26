@@ -8,6 +8,7 @@ nav_order: 3
 calendar: false
 ---
 
+---
 ## Teaching Assistant at TU Darmstadt
 
 ### Courses
@@ -28,6 +29,6 @@ calendar: false
 
 <div class="publications">
 
-{% bibliography -f student-project %}
+{% bibliography -f student-project --group_by none,year %}
 
 </div>
