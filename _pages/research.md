@@ -6,13 +6,15 @@ nav: true
 nav_order: 2
 ---
 
+---
 ## Talks
 
-- **Parallel Optimization Methods for Estimation** 
+- **Parallel Optimization Methods for Estimation** <br>
   Invited by EEMCS, TU Delft, January 2026
 
 <!-- ## Participated Conferences -->
 
+---
 ## Reviewing Activities
 
 ### Journals
