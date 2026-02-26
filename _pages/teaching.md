@@ -25,3 +25,11 @@ calendar: false
 - **18-pe-2030 MIMO Communication and Space-Time Coding**
 
   Winter Semester 2018/19 -- Winter Semester 2019/20
+
+### Supervised Student Projects
+
+<div class="publications">
+
+{% bibliography -f student-project --group_by year %}
+
+</div>
