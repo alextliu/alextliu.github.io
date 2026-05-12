@@ -1,81 +1,53 @@
-# Agent Guidelines for al-folio
+# Agent Notes — al-folio (compact)
 
-A simple, clean, and responsive Jekyll theme for academics.
+Only include facts an agent would otherwise miss. If it's obvious from filenames or docs, omit it.
 
-## Quick Links by Role
+Quick references
+- Primary build: Docker-based Jekyll site. See `.github/copilot-instructions.md` for background.
+- Main config: `_config.yml` (site-wide flags, url/baseurl). Changing url/baseurl incorrectly breaks CSS/assets.
+- CI: `.github/workflows/deploy.yml` (builds with Ruby 3.3.5 + Python 3.13, runs purgecss, pushes gh-pages).
+- Formatting: Prettier + `@shopify/prettier-plugin-liquid` — CI blocks PRs if you skip it.
 
-- **Are you a coding agent?** → Read [`.github/copilot-instructions.md`](.github/copilot-instructions.md) first (tech stack, build, CI/CD, common pitfalls & solutions)
-- **Customizing the site?** → See [`.github/agents/customize.agent.md`](.github/agents/customize.agent.md)
-- **Writing documentation?** → See [`.github/agents/docs.agent.md`](.github/agents/docs.agent.md)
-- **Need setup/deployment help?** → [INSTALL.md](INSTALL.md)
-- **Troubleshooting & FAQ?** → [TROUBLESHOOTING.md](TROUBLESHOOTING.md)
-- **Customization & theming?** → [CUSTOMIZE.md](CUSTOMIZE.md)
-- **Quick 5-min start?** → [QUICKSTART.md](QUICKSTART.md)
+Must-know commands (exact)
+- Start dev server (recommended):
+  docker compose pull && docker compose up
+  - Site: http://localhost:8080 (container maps host 8080→container 8080)
+- Rebuild image after dependency changes or Dockerfile edits:
+  docker compose up --build
+- Slim image (optional):
+  docker compose -f docker-compose-slim.yml up
+- Stop / free port:
+  docker compose down
 
-## Essential Commands
+Formatting & pre-commit (exact)
+- Install once locally before formatting checks:
+  npm install --save-dev prettier @shopify/prettier-plugin-liquid
+- Format everything before committing (CI will fail if you don't):
+  npx prettier . --write
 
-### Local Development (Docker)
+Local verification (minimal required before push)
+- Run the site and visually confirm key pages: `docker compose up` then open http://localhost:8080.
+- If you changed Ruby/Python gems, rebuild the image: `docker compose up --build`.
 
-The recommended approach is using Docker.
+Critical, easy-to-miss rules
+- Always keep `url` and `baseurl` consistent in `_config.yml`:
+  - Personal site: `url: https://username.github.io` and `baseurl:` (empty)
+  - Project site: `url: https://username.github.io` and `baseurl: /repo-name/`
+  Wrong values cause missing CSS/assets after deploy.
+- Do NOT edit or push to the `gh-pages` branch — CI writes it. Treat it as generated output.
+- Production builds require JEKYLL_ENV=production for CSS/JS minification; CI sets this. Locally you can set it in the environment before build.
+- Image processing requires ImageMagick. Docker images include it; local dev must have `convert` on PATH before enabling responsive images.
+- nbconvert must be recent for notebook embedding: `pip3 install --upgrade nbconvert` if you run notebook tooling locally.
 
-```bash
-# Initial setup & start dev server
-docker compose pull && docker compose up
-# Site runs at http://localhost:8080
+Common failure modes and quick fixes
+- Prettier fails on PRs: run `npx prettier . --write` locally, recommit.
+- Port 8080 in use: `docker compose down` then `docker compose up` (or stop the process using the port).
+- Docker permission EACCES when building jekyll cache: see commented build args in `docker-compose.yml` (GROUPID/USERID) — only needed on some systems.
+- "Related posts" classifier errors: posts with empty/minimal content can break classifier; set `related_posts: false` in frontmatter to bypass.
 
-# Rebuild after changing dependencies or Dockerfile
-docker compose up --build
+Where to look for more repo-specific rules
+- `.github/copilot-instructions.md` — full build matrix, pitfalls, CI behavior (read before changing build/CI).
+- `.github/agents/*` — agent-specific helpers (customize/docs agents).
+- `INSTALL.md`, `CUSTOMIZE.md`, `TROUBLESHOOTING.md` — operational tasks and edge cases.
 
-# Stop containers and free port 8080
-docker compose down
-```
-
-### Pre-Commit Checklist
-
-Before every commit, you **must** run these steps:
-
-1.  **Format Code:**
-    ```bash
-    # (First time only)
-    npm install --save-dev prettier @shopify/prettier-plugin-liquid
-    # Format all files
-    npx prettier . --write
-    ```
-2.  **Build Locally & Verify:**
-
-    ```bash
-    # Rebuild the site
-    docker compose up --build
-
-    # Verify by visiting http://localhost:8080.
-    # Check navigation, pages, images, and dark mode.
-    ```
-
-## Critical Configuration
-
-When modifying `_config.yml`, these **must be updated together**:
-
-- **Personal site:** `url: https://username.github.io` + `baseurl:` (empty)
-- **Project site:** `url: https://username.github.io` + `baseurl: /repo-name/`
-- **YAML errors:** Quote strings with special characters: `title: "My: Cool Site"`
-
-## Development Workflow
-
-- **Git & Commits:** For commit message format and Git practices, see [.github/GIT_WORKFLOW.md](.github/GIT_WORKFLOW.md).
-- **Code-Specific Instructions:** Consult the relevant instruction file for your code type.
-
-| File Type                                     | Instruction File                                                                                |
-| --------------------------------------------- | ----------------------------------------------------------------------------------------------- |
-| Markdown content (`_posts/`, `_pages/`, etc.) | [markdown-content.instructions.md](.github/instructions/markdown-content.instructions.md)       |
-| YAML config (`_config.yml`, `_data/`)         | [yaml-configuration.instructions.md](.github/instructions/yaml-configuration.instructions.md)   |
-| BibTeX (`_bibliography/`)                     | [bibtex-bibliography.instructions.md](.github/instructions/bibtex-bibliography.instructions.md) |
-| Liquid templates (`_includes/`, `_layouts/`)  | [liquid-templates.instructions.md](.github/instructions/liquid-templates.instructions.md)       |
-| JavaScript (`_scripts/`)                      | [javascript-scripts.instructions.md](.github/instructions/javascript-scripts.instructions.md)   |
-
-## Common Issues
-
-For troubleshooting, see:
-
-- [Common Pitfalls & Workarounds](.github/copilot-instructions.md#common-pitfalls--workarounds) in copilot-instructions.md
-- [TROUBLESHOOTING.md](TROUBLESHOOTING.md) for detailed solutions
-- [GitHub Issues](https://github.com/alshedivat/al-folio/issues) to search for your specific problem.
+If something contradicts these concise rules, prefer the executable source (Dockerfile, `docker-compose.yml`, CI workflows) and update this file.
