@@ -37,18 +37,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
-          description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
-          description: "",
-          section: "News",},{id: "news-our-paper-maximum-a-posteriori-direction-of-arrival-estimation-via-mixed-integer-semidefinite-programming-has-been-accepted-for-publication-in-ieee-transactions-on-signal-processing",
+        },{id: "news-our-paper-maximum-a-posteriori-direction-of-arrival-estimation-via-mixed-integer-semidefinite-programming-has-been-accepted-for-publication-in-ieee-transactions-on-signal-processing",
           title: 'Our paper “Maximum a posteriori Direction-of-Arrival Estimation via Mixed-Integer Semidefinite Programming” has been...',
           description: "",
           section: "News",},{id: "teachings-data-science-fundamentals",
