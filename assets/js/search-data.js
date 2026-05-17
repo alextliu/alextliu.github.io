@@ -42,11 +42,6 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2026-05-15-accepted-ieee-tsp-maximum-map-doa/";
-            },},{id: "news-已被接受-maximum-a-posteriori-direction-of-arrival-estimation-via-mixed-integer-semidefinite-programming",
-          title: '已被接受：Maximum a posteriori Direction-of-Arrival Estimation via Mixed-Integer Semidefinite Programming',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/2026-05-17-accepted-ieee-tsp-maximum-map-doa/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
