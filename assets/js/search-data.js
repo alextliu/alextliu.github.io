@@ -37,7 +37,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "news-已被接受-maximum-a-posteriori-direction-of-arrival-estimation-via-mixed-integer-semidefinite-programming",
+        },{id: "news-",
+          title: '',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2026-05-15-accepted-ieee-tsp-maximum-map-doa/";
+            },},{id: "news-已被接受-maximum-a-posteriori-direction-of-arrival-estimation-via-mixed-integer-semidefinite-programming",
           title: '已被接受：Maximum a posteriori Direction-of-Arrival Estimation via Mixed-Integer Semidefinite Programming',
           description: "",
           section: "News",handler: () => {
