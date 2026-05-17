@@ -1,6 +1,5 @@
 ---
 layout: post
-title: Accepted: Maximum a posteriori DOA (short)
 date: 2026-05-15
 inline: true
 related_posts: false
