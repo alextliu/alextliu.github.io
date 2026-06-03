@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-03-06'
+  last_updated: '2026-06-03'
 papers:
   SAJ8bL8AAAAJ:2osOgNQ5qMEC:
     citations: 5
@@ -14,7 +14,7 @@ papers:
     title: A block coordinate descent algorithm for sparse Gaussian graphical model inference with Laplacian constraints
     year: '2019'
   SAJ8bL8AAAAJ:Tyk-4Ss8FVUC:
-    citations: 1
+    citations: 2
     title: Joint Sparse Estimation with Cardinality Constraint via Mixed-Integer Semidefinite Programming
     year: '2023'
   SAJ8bL8AAAAJ:W7OEmFMy1HYC:
@@ -24,9 +24,9 @@ papers:
   SAJ8bL8AAAAJ:WF5omc3nYNoC:
     citations: 0
     title: Maximum A Posteriori Direction-of-Arrival Estimation via Mixed-Integer Semidefinite Programming
-    year: '2023'
+    year: '2026'
   SAJ8bL8AAAAJ:Y0pCki6q_DkC:
-    citations: 1
+    citations: 2
     title: Gridless Parameter Estimation in Partly Calibrated Rectangular Arrays
     year: '2024'
   SAJ8bL8AAAAJ:YsMSGLbcyi4C:
