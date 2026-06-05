@@ -40,6 +40,9 @@ ninja.data = [{
         },{id: "news-our-paper-maximum-a-posteriori-direction-of-arrival-estimation-via-mixed-integer-semidefinite-programming-has-been-accepted-for-publication-in-ieee-transactions-on-signal-processing",
           title: 'Our paper “Maximum a posteriori Direction-of-Arrival Estimation via Mixed-Integer Semidefinite Programming” has been...',
           description: "",
+          section: "News",},{id: "news-i-have-joined-the-signal-processing-systems-sps-group-at-tu-delft-as-a-postdoctoral-researcher-working-with-prof-geert-leus",
+          title: 'I have joined the Signal Processing Systems (SPS) group at TU Delft as...',
+          description: "",
           section: "News",},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
@@ -62,7 +65,7 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%74%6C%69%75@%6E%74.%74%75-%64%61%72%6D%73%74%61%64%74", "_blank");
+          window.open("mailto:%54.%4C%69%75-%36@%74%75%64%65%6C%66%74.%6E%6C", "_blank");
         },
       },{
         id: 'social-github',
