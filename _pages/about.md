@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.nts.tu-darmstadt.de/team_nts/staff_nts/details_75328.en.jsp'>Postdoctoral Researcher, Communication Systems Group, TU Darmstadt</a>
+subtitle: <a href='https://microelectronics.tudelft.nl/People/bio.php?id=1162'>Postdoctoral Researcher, Signal Processing Systems Group, TU Delft</a>
 
 profile:
   align: right
@@ -31,7 +31,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Tianyi Liu is a postdoctoral researcher at the Communication Systems Group, Technical University of Darmstadt (TUD), Germany. Before that, he received the double M.Sc. degrees in electrical engineering from TUD and the Politecnico di Torino, Italy, in 2018. He received the best Master student award from the Department of Electrical Engineering and Information Technology at TUD. He obtained his Dr.-Ing. degree in electrical engineering, with distinction, from TUD in 2024 under the supervision of [Prof. Dr.-Ing. Marius Pesavento](https://www.nts.tu-darmstadt.de/team_nts/staff_nts/details_12801.en.jsp). His research lies at the intersection of computational optimization, signal processing, and machine learning, with a particular focus on developing parallel algorithms for nonconvex and nonsmooth optimization problems that arise in learning tasks in large-scale sensing and communication systems.
+Tianyi Liu is a postdoctoral researcher at the Signal Processing Systems (SPS) group, Delft University of Technology (TU Delft), the Netherlands, working with [Prof. Geert Leus](https://sps.ewi.tudelft.nl/People/bio.php?id=3). Prior to this, he was with the Communication Systems Group, Technical University of Darmstadt (TUD), Germany. He received the double M.Sc. degrees in electrical engineering from TUD and the Politecnico di Torino, Italy, in 2018. He received the best Master student award from the Department of Electrical Engineering and Information Technology at TUD. He obtained his Dr.-Ing. degree in electrical engineering, with distinction, from TUD in 2024 under the supervision of [Prof. Dr.-Ing. Marius Pesavento](https://www.nts.tu-darmstadt.de/team_nts/staff_nts/details_12801.en.jsp). His research lies at the intersection of computational optimization, signal processing, and machine learning, with a particular focus on developing parallel algorithms for nonconvex and nonsmooth optimization problems that arise in learning tasks in large-scale sensing and communication systems.
 
 ## research interests
 

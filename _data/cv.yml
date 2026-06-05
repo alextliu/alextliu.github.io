@@ -1,9 +1,9 @@
 cv:
   name: Tianyi Liu
   label: Postdoctoral Researcher in Signal Processing and Machine Learning
-  email: tliu@nt.tu-darmstadt.de
+  email: T.Liu-6@tudelft.nl
   website: https://tianyiliu.work
-  location: Darmstadt, Germany
+  location: Delft, Netherlands
   image: ""
   summary: A passionate researcher in signal processing and machine learning
 
@@ -113,6 +113,12 @@ cv:
         # summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
         # highlights:
         #   - Relativity
+
+      - company: Signal Processing Systems Group, TU Delft
+        position: Postdoctoral Researcher
+        location: Delft, Netherlands
+        start_date: 2026-06
+        # summary:
 
       - company: Politecnico di Torino
         position: Research Assistant
