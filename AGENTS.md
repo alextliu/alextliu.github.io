@@ -51,6 +51,11 @@ Common failure modes and quick fixes
 - Docker permission EACCES when building jekyll cache: see commented build args in `docker-compose.yml` (GROUPID/USERID) — only needed on some systems.
 - "Related posts" classifier errors: posts with empty/minimal content can break classifier; set `related_posts: false` in frontmatter to bypass.
 
+CV data rules (`_data/cv.yml`)
+
+- **Experience** and **Education** sections: entries MUST be in **reverse chronological order** (most recent first).
+- **TU Darmstadt** must NOT be abbreviated as "TUD" — use "TU Darmstadt" to avoid confusion with TU Delft.
+
 Where to look for more repo-specific rules
 
 - `.github/copilot-instructions.md` — full build matrix, pitfalls, CI behavior (read before changing build/CI).
