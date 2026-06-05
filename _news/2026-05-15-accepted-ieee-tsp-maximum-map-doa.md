@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper ["Maximum a posteriori Direction-of-Arrival Estimation via Mixed-Integer Semidefinite Programming"](https://arxiv.org/abs/2311.03501) has been accepted for publication in _IEEE Transactions on Signal Processing_.
+Our paper ["Maximum a posteriori Direction-of-Arrival Estimation via Mixed-Integer Semidefinite Programming"](https://doi.org/10.1109/TSP.2026.3697636) has been accepted for publication in _IEEE Transactions on Signal Processing_.
