@@ -29,6 +29,6 @@ calendar: false
 
 <div class="publications student-projects">
 
-{% bibliography -f student-project --group_by none --sort_by year,month --order descending %}
+{% bibliography -f student-project --group_by school --sort_by year,month --order descending %}
 
 </div>
