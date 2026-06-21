@@ -65,6 +65,22 @@ Compare the resulting venue names against the **Reviewing Activities** section i
 - `ICASSP` — reviews done on behalf of supervisor, not as official reviewer
 - `EUSIPCO` — same reason
 
+## 7. Supervised student projects (Zotero → student-project.bib)
+
+Read the `zotero-library` skill (`~/.claude/skills/zotero-library/SKILL.md`) to get the current collection key for `240 Student Projects`, then fetch all items in that collection:
+
+```bash
+curl -s "https://api.zotero.org/users/$ZOTERO_USER_ID/collections/<STUDENT_PROJECTS_KEY>/items/top?limit=100&format=json" \
+  -H "Zotero-API-Key: $ZOTERO_API_KEY" | python3 -c "
+import sys, json
+for item in json.load(sys.stdin):
+    d = item['data']
+    print(d.get('title',''), '|', d.get('creators',[{}])[0].get('lastName',''), '|', d.get('date',''))
+"
+```
+
+Compare against the entries in `_bibliography/student-project.bib`. Any item in Zotero that is absent from the bib file should be flagged — report title, student name, and year, and ask the user whether to add it.
+
 ---
 
 After checking all sections, summarize findings as:
