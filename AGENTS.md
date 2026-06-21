@@ -56,6 +56,11 @@ CV data rules (`_data/cv.yml`)
 - **Experience** and **Education** sections: entries MUST be in **reverse chronological order** (most recent first).
 - **TU Darmstadt** must NOT be abbreviated as "TUD" — use "TU Darmstadt" to avoid confusion with TU Delft.
 
+Known non-issues (do not flag in content audits)
+
+- `_news/announcement_1.md`, `announcement_2.md`, `announcement_3.md` — intentionally kept as templates for authoring new announcements; already excluded from site display via config.
+- `about.md` subtitle URL `microelectronics.tudelft.nl/People/bio.php?id=1162` — this is the correct SPS group profile page for Tianyi Liu at TU Delft, not an error.
+
 Where to look for more repo-specific rules
 
 - `.github/copilot-instructions.md` — full build matrix, pitfalls, CI behavior (read before changing build/CI).

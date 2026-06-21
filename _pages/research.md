@@ -27,6 +27,8 @@ nav_order: 2
 ### Journals
 
 - IEEE Transactions on Signal Processing (IEEE TSP)
+- IEEE Transactions on Aerospace and Electronic Systems (IEEE TAES)
+- IEEE Transactions on Antennas and Propagation (IEEE TAP)
 - IEEE Signal Processing Letters (IEEE SPL)
 - Elsevier Signal Processing
 
