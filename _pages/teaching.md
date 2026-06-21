@@ -10,9 +10,9 @@ calendar: false
 
 ---
 
-## Teaching Assistant at TU Darmstadt
+## Courses
 
-### Courses
+### Teaching Assistant at TU Darmstadt
 
 - **18-pe-2080 Graph Signal Processing, Learning, and Optimization** <br>
   Instructor: Prof. Marius Pesavento, Winter Semester 2020/21 -- Winter Semester 2024/25
@@ -25,7 +25,9 @@ calendar: false
   Instructor: Prof. Marius Pesavento,
   Winter Semester 2018/19 -- Winter Semester 2019/20
 
-### Supervised Student Projects
+---
+
+## Supervised Student Projects
 
 <div class="publications student-projects">
 
