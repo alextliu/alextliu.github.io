@@ -2,6 +2,17 @@
  * Teachings/Courses styles
  *****************************/
 
+.student-projects {
+  .col.abbr {
+    display: none;
+  }
+  .col-sm-8,
+  .col-sm-10 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
 .courses {
   margin-top: 30px;
 }

@@ -27,8 +27,8 @@ calendar: false
 
 ### Supervised Student Projects
 
-<div class="publications">
+<div class="publications student-projects">
 
-{% bibliography -f student-project --group_by none %}
+{% bibliography -f student-project --group_by none --sort_by year,month --order descending %}
 
 </div>

@@ -1,4 +1,4 @@
-# Agent Notes — _data/
+# Agent Notes — \_data/
 
 Rules specific to YAML data files in this directory.
 

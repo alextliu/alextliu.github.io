@@ -1,4 +1,4 @@
-# Agent Notes — _bibliography/
+# Agent Notes — \_bibliography/
 
 Rules specific to BibTeX bibliography files in this directory.
 
@@ -50,16 +50,16 @@ The canonical publication list is maintained in Zotero under **220 MyPub** (coll
 
 ## Custom al-folio fields (added to BibTeX entries)
 
-| Field | Purpose |
-|-------|---------|
-| `selected={true}` | Pin to "selected publications" on the about page |
-| `pdf={filename.pdf}` | Link to `assets/pdf/filename.pdf` |
-| `code={https://...}` | Link to code repository |
-| `slides={filename.pdf}` | Link to `assets/pdf/filename.pdf` |
-| `poster={filename.pdf}` | Link to `assets/pdf/filename.pdf` |
-| `abstract={...}` | Expandable abstract on publications page |
-| `html={https://...}` | External URL (e.g., publisher page) |
-| `award={Best Paper Award}` | Display award badge |
+| Field                      | Purpose                                          |
+| -------------------------- | ------------------------------------------------ |
+| `selected={true}`          | Pin to "selected publications" on the about page |
+| `pdf={filename.pdf}`       | Link to `assets/pdf/filename.pdf`                |
+| `code={https://...}`       | Link to code repository                          |
+| `slides={filename.pdf}`    | Link to `assets/pdf/filename.pdf`                |
+| `poster={filename.pdf}`    | Link to `assets/pdf/filename.pdf`                |
+| `abstract={...}`           | Expandable abstract on publications page         |
+| `html={https://...}`       | External URL (e.g., publisher page)              |
+| `award={Best Paper Award}` | Display award badge                              |
 
 ## Author highlighting
 

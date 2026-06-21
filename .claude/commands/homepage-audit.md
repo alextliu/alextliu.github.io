@@ -84,6 +84,7 @@ Compare against the entries in `_bibliography/student-project.bib`. Any item in 
 ---
 
 After checking all sections, summarize findings as:
+
 - **Action needed**: items that are clearly stale or missing
 - **Ask user**: items that require user input to determine if an update is needed
 - **OK**: sections that look current
