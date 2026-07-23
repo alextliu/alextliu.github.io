@@ -58,7 +58,7 @@ ninja.data = [{
         title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("/assets/pdf/cv_academic_TianyiLiu.pdf", "_blank");
+          window.open("/assets/rendercv/rendercv_output/Tianyi_Liu_CV.pdf", "_blank");
         },
       },{
         id: 'social-email',
