@@ -17,6 +17,7 @@ nav_order: 2
 
 ## Participated Projects
 
+- Dutch Research Council (NWO) Open Technology Programme, Project 19497, "Graph Signal Processing in Action (GraSPA)", PI: Prof. Geert Leus, Prof. Elvin Isufi, Prof. Pieter Kruizinga, &euro;295K for the TU Delft SPS group, 2023--2028
 - German Research Foundation (DFG), "The partial relaxation method in direction-of-arrival estimation: Design and analysis", PI: Prof. Marius Pesavento, &euro;300K, 2019--2025
 - DFG priority program on Compressed Sensing in Information Processing (CoSIP), "Exploiting structure in compressed sensing using side constraints: From analysis to system design -- Funding phase II", PI: Prof. Martin Haardt, Prof. Marc Pfetsch, Prof. Marius Pesavento, &euro;300K for each group, 2018--2021
 
