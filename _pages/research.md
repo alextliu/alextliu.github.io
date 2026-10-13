@@ -35,3 +35,4 @@ nav_order: 2
 ### Conferences
 
 - IEEE Sensor Array and Multichannel Signal Processing Workshop (IEEE SAM)
+- IEEE International Conference on Advanced Networks and Telecommunications Systems (IEEE ANTS)
